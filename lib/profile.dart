@@ -21,6 +21,10 @@ class ProfilePage extends StatelessWidget {
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 40),
+              Text(
+                "Saya bersumpah mengerjakan soal kuis ini dengan jujur dan tidak melakukan kecurangan apapun itu",
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+              ),
               ElevatedButton(
                 onPressed: () {
                   Navigator.pushAndRemoveUntil(
